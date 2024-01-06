@@ -1,0 +1,39 @@
+{
+    "greeting": {
+      "title": "Hello!",
+      "message": "Welcome to the app."
+    },
+    "buttonLabel": "Click me",
+    "name" : "Vidisha Shah",
+    "position" : "Full Stack Developer",
+    "desc" : "A passionate web developer with a keen interest in enhancing Developer Experience, embracing Open Source, and delving into the endless potential of Artificial Intelligence. My goal is to support fellow developers, and create with a user-centric approach.",
+    "heading1" : "Hi! I'm Vidisha",
+    "subheading" : "Crafting digital experiences, one commit at a time, from Nuremberg, Germany.",
+    "heading2" : "About Me",
+    "about" : "Creative Full-Stack Web Developer | Skilled in HTML5, CSS3, JavaScript, ReactJs, MongoDB, Express.js, Node.js. Committed to delivering high-quality codeand optimizing performance. Let's collaborate and create remarkable digitalsolutions.",
+    "heading3" : "Skills",
+    "skills" : ["React Js","JavaScript","ES6","TypeScript","Node.js","Express.js","MongoDB","HTML","CSS","Tailwind","Bootstrap","RESTful APIs","Problem Solving","Communication","Pair Programming","Team Collaboration","Responsive design","Agile","Scrum","Git","Github"],
+    "heading4" : "Recent projects",
+    "subheading4" : "Explore some of my handcrafted projects, meticulously coded from inception to completion.",
+    "projects" : [
+      {
+        "title": "Curriculum Builder",
+        "description": "Curriculum Builder is a full stack application. User can build their CVs online by using our application. The user experience includes real-time preview features. Project has been created with React Js, Node Js, Express Js, Mongo DB and Tailwind CSS.",
+        "imageSrc": "../src/assets/cv-builder.JPG",
+        "url": "https://curriculum-builder.netlify.app/"
+      },
+      {
+        "title": "The Dream Holiday Apartment",
+        "description" : "The Dream Holiday Apartment is utilized to oversee the administrative section of the website. It is is built with React Js. We have utilized react-bootstrap and Bootstrap dependencies for styling.",
+        "imageSrc": "../src/assets/dream-holiday.JPG",
+        "url": "https://dream-holiday-apartments.netlify.app/"
+      },
+      {
+        "title": "Angry Bird Shooting Game",
+        "description" : "Angry Bird Shooting Game is web based shooting game. Project has been created with plain HTML, Javascript and CSS.",
+        "imageSrc": "../src/assets/angry-bird.JPG",
+        "url": "https://vidishashah25.github.io/angrybird-shoot-game/index.html"
+      }
+    ]
+    
+  }
