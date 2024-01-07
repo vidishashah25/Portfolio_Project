@@ -1,0 +1,20 @@
+.main-container{
+    height: 100vh;
+    @apply w-full flex overflow-hidden
+}
+.header-container{
+    height: auto;
+    @apply w-96 bg-neutral-900 flex flex-col sticky 
+}
+
+.home-container{
+    @apply w-full h-full bg-neutral-950 
+}
+
+.content-container{
+    align-self: center;
+    height: 55rem;
+    width: 50rem;
+    margin: 0 auto;
+   
+}

@@ -3,5 +3,36 @@
       "title": "Hallo!",
       "message": "Willkommen zur App."
     },
-    "buttonLabel": "Klick mich"
+    "buttonLabel": "Klick mich",
+    "name" : "Vidisha Shah",
+    "position" : "Full Stack-Entwickler",
+    "desc" : "Ein leidenschaftlicher Webentwickler mit großem Interesse an der Verbesserung der Entwicklererfahrung, der Nutzung von Open Source und dem Eintauchen in das endlose Potenzial der Künstlichen Intelligenz. Mein Ziel ist es, Mitentwickler zu unterstützen und mit einem benutzerzentrierten Ansatz zu gestalten.",
+    "heading1" : "Hallo! Ich bin Vidisha.",
+    "subheading" : "Digitale Erfahrungen schaffen, Commit für Commit, aus Nürnberg, Deutschland.",
+    "heading2" : "Über mich",
+    "about" : "Kreativer Full-Stack Webentwickler | Erfahren in HTML5, CSS3, JavaScript, ReactJs, MongoDB, Express.js, Node.js. Engagiert für die Bereitstellung von hochwertigem Code und Optimierung der Leistung. Lass uns zusammenarbeiten und bemerkenswerte digitale Lösungen schaffen.",
+    "heading3" : "Fähigkeiten",
+    "skills" : ["React Js","JavaScript","ES6","TypeScript","Node.js","Express.js","MongoDB","HTML","CSS","Tailwind","Bootstrap","RESTful APIs","Problemlösung","Kommunikation","Paarprogrammierung","Teamzusammenarbeit","Responsive design","Agile","Scrum","Git","Github"],
+    "heading4" : "Aktuelle Projekte",
+    "subheading4" : "Erkunde einige meiner handgefertigten Projekte, sorgfältig von der Konzeption bis zur Fertigstellung codiert.",
+    "projects" : [
+      {
+        "title": "Curriculum Builder",
+        "description": "Curriculum Builder ist eine Full-Stack-Anwendung. Benutzer können ihre Lebensläufe online mit unserer Anwendung erstellen. Die Benutzererfahrung umfasst Funktionen für eine Echtzeitvorschau. Das Projekt wurde mit React Js, Node Js, Express Js, MongoDB und Tailwind CSS erstellt.",
+        "imageSrc": "../src/assets/cv-builder.JPG",
+        "url": "https://curriculum-builder.netlify.app/"
+      },
+      {
+        "title": "The Dream Holiday Apartment",
+        "description" : "The Dream Holiday Apartment wird verwendet, um den administrativen Bereich der Website zu verwalten. Es ist mit React Js erstellt worden. Wir haben react-bootstrap und Bootstrap-Abhängigkeiten für das Styling genutzt.",
+        "imageSrc": "../src/assets/dream-holiday.JPG",
+        "url": "https://dream-holiday-apartments.netlify.app/"
+      },
+      {
+        "title": "Angry Bird Shooting Game",
+        "description" : "Angry Bird Shooting Game ist ein webbasiertes Schießspiel. Das Projekt wurde mit einfachem HTML, Javascript und CSS erstellt.",
+        "imageSrc": "../src/assets/angry-bird.JPG",
+        "url": "https://vidishashah25.github.io/angrybird-shoot-game/index.html"
+      }
+    ]
 }

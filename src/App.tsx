@@ -7,9 +7,10 @@ import { LanguageToggle } from './components/LanguageToggle';
 function App() {
 
   return (
-    <I18nextProvider i18n={i18n}>
+    <I18nextProvider i18n={i18n}>   
+    <LanguageToggle/>  
       <Home/>
-      <LanguageToggle/>
+          
     </I18nextProvider>
   )
 }
