@@ -104,7 +104,7 @@ function Home() {
                   <div className="p-2 md:flex-shrink-0">
                     <img
                       src={project.imageSrc}
-                      alt="Woman paying for a purchase"
+                      alt="project image"
                       className="rounded-lg w-32 h-34 self-center"
                     />
                   </div>
