@@ -127,20 +127,6 @@ function Home() {
         </div>
       </div>
 
-      {/* <h1 className="text-3xl font-bold underline">{t("greeting.title")}</h1>
-      <p>{t("greeting.message")}</p> */}
-      {/* {projects.map((project: Project, index: number) => (
-        <div key={index}>
-          <h2>{project.title}</h2>
-          <p>{project.description}</p>
-          <a href={project.url}>Go to project</a>
-        </div>
-      ))}
-      <ul>
-        {skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
-      </ul> */}
     </div>
   )
 }
