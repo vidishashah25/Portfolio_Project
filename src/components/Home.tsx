@@ -81,39 +81,39 @@ function Home() {
       </div>
       <div className="home-container">
         <div className="content-container">
-          <div className="flex m-20">
-            <div className="text-white self-center">
+          <div className="intro-container">
+            <div className="intro-text">
               <p className="text-5xl font-semibold">{t("heading1")}</p>
               <p className="mt-4 text-lg">{t("subheading")}</p>
             </div>
             <img src={code} alt="" className="w-40 h-40 ml-4" />
           </div>
-          <h2 id="about" className="text-white ml-20 text-2xl font-semibold">{t("heading2")}</h2>
-          <p className="text-white ml-20 mt-6">{t("about")}</p>
-          <h2 id="skills" className="text-white ml-20 mt-6 text-2xl font-semibold">{t("heading3")}</h2>
-          <ul className="flex flex-wrap ml-20 mt-6 gap-4">
+          <h2 id="about" className="heading2">{t("heading2")}</h2>
+          <p className="text-white mt-6">{t("about")}</p>
+          <h2 id="skills" className="text-white mt-6 text-2xl font-semibold">{t("heading3")}</h2>
+          <ul className="flex flex-wrap mt-6 gap-4">
             {skills.map((skill, index) => (
               <li className="text-white border  border-gray-400 w-fit py-1 px-2 bg-stone hover:bg-teal-900 " key={index}>{skill}</li>
             ))}
           </ul>
-          <h2 id="project" className="text-white ml-20 mt-6 text-2xl font-semibold">{t("heading4")}</h2>
-          <section className="flex flex-col ml-20 mt-6 mb-6 gap-4">
+          <h2 id="project" className="text-white mt-6 text-2xl font-semibold">{t("heading4")}</h2>
+          <section className="flex flex-col mt-6 mb-6 gap-4">
             {
               projects.map((project: Project, index: number) => (
-                <a key={index} className="md:flex border border-gray-400 rounded-lg px-2 py-2 hover:bg-neutral-700 h-40 items-center gap-3" href={project.url} target="_blank">
-                  <div className="p-2 md:flex-shrink-0">
+                <a key={index} className="card" href={project.url} target="_blank">
+                  <div className="cards-container"> 
                     <img
                       src={project.imageSrc}
                       alt="project images"
-                      className="rounded-lg w-32 h-34 self-center"
+                      className="card-image"
                     />
                   </div>
                   <div className="mt-4">
-                    <div className="uppercase text-sm text-white font-bold">
+                    <div className="card-title">
                       {project.title}
                     </div>
 
-                    <p className="mt-2 text-white">
+                    <p className="card-desc">
                       {project.description}
                     </p>
 
@@ -123,7 +123,7 @@ function Home() {
             }
           </section>
 
-          <p id="contact" className="m-2">.</p>
+          
         </div>
       </div>
 

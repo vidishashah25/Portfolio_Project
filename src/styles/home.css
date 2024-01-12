@@ -1,25 +1,68 @@
 
+.custom-scrollbar::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
 /* background-color: rgb(13 148 136 / var(--tw-bg-opacity)); */
 .main-container{
     @apply w-full flex relative
 }
 .header-container{
-    height: 100vh;
-    height: auto;
-    @apply w-96 bg-neutral-900 flex flex-col max-h-full 
+    position: sticky;
+    top: 0;
+    @apply w-96 bg-neutral-900 flex flex-col
 }
 
 .home-container{
     overflow: auto;
-    @apply w-full h-full bg-neutral-950
+    @apply w-full bg-neutral-950
 }
 
 .content-container{
     align-self: center;
-    height: 55rem;
-    width: 50rem;
+    width: 45rem;
     margin: 0 auto;
-   
+}
+
+.intro-container {
+    @apply flex my-14
+}
+
+.intro-text{
+    @apply text-white self-center mt-2 
+}
+
+.heading2{
+    @apply text-white text-2xl font-semibold
+}
+
+.card{
+    @apply md:flex border border-gray-400 rounded-lg px-2 py-2 hover:bg-neutral-700 h-auto items-center gap-3
+}
+.card1{
+    @apply border border-gray-400 rounded-lg p-4 hover:bg-neutral-700 flex items-center gap-3;
+    flex: 1;
+}
+.cards-container {
+    @apply p-2 md:flex-shrink-0
+}
+.card-image {
+    height: 200px;
+    width: 300px;
+    @apply rounded-lg  self-center
+}
+.card-title {
+    @apply uppercase text-sm text-white font-bold
+}
+.card-desc {
+    @apply mt-2 text-white
 }
 
 .link {
@@ -29,4 +72,36 @@
 .link1{
     @apply block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0
      dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent
+}
+
+@media (max-width: 768px) {
+    .main-container{
+        @apply flex-col-reverse h-auto; 
+    }
+    .home-container{
+        @apply w-full
+    }
+    .header-container{
+        @apply w-full
+    }
+    .content-container{
+        width: auto;
+        padding: 80px; 
+    }
+    .intro-container{
+        @apply flex-col-reverse flex-wrap items-center gap-5
+    }
+   
+    .card-image{
+        margin: 0 auto;
+    }
+    .card-title{
+        @apply text-center
+    }
+    .card-desc {
+        @apply text-center
+    }
+    .card {
+        @apply items-center self-center
+    }
 }
