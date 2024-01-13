@@ -8,9 +8,8 @@ function App() {
 
   return (
     <I18nextProvider i18n={i18n}>   
-    <LanguageToggle/>  
-      <Home/>
-          
+      <LanguageToggle/>  
+      <Home/>      
     </I18nextProvider>
   )
 }

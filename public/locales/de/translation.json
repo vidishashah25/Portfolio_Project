@@ -6,11 +6,11 @@
     "buttonLabel": "Klick mich",
     "name" : "Vidisha Shah",
     "position" : "Full Stack-Entwickler",
-    "desc" : "Ein leidenschaftlicher Webentwickler mit großem Interesse an der Verbesserung der Entwicklererfahrung, der Nutzung von Open Source und dem Eintauchen in das endlose Potenzial der Künstlichen Intelligenz. Mein Ziel ist es, Mitentwickler zu unterstützen und mit einem benutzerzentrierten Ansatz zu gestalten.",
-    "heading1" : "Hallo! Ich bin Vidisha.",
-    "subheading" : "Digitale Erfahrungen schaffen, Commit für Commit, aus Nürnberg, Deutschland.",
+    "desc" : "MERN-Stack-Entwickler mit Leidenschaft für optimale Entwicklererfahrung. Erfahren in nutzerzentrierten Weblösungen und Kollegenunterstützung. Gemeinsam innovative, außergewöhnliche Erfahrungen schaffen! 🚀💻",
+    "heading1" : "Hallo! Ich bin <span style='color:#0D9488'>Vidisha</span>",
+    "subheading" : "<span style='color:#0D9488'>Digitale Erfahrungen</span> schaffen, Commit für Commit, aus <span style='color:#0D9488'>Nürnberg, Deutschland.</span>",
     "heading2" : "Über mich",
-    "about" : "Kreativer Full-Stack Webentwickler | Erfahren in HTML5, CSS3, JavaScript, ReactJs, MongoDB, Express.js, Node.js. Engagiert für die Bereitstellung von hochwertigem Code und Optimierung der Leistung. Lass uns zusammenarbeiten und bemerkenswerte digitale Lösungen schaffen.",
+    "about" : "Als <strong>Full-Stack-Entwickler</strong> mit Spezialisierung auf den <strong>MERN-Stack</strong> bringe ich über 3 Jahre Erfahrung mit. Ich war als Technischer Assistent-Direktor und Frontend-Entwickler tätig.<br/><br/>Ich habe einen <strong>MSc. in Informationstechnologie.</strong> vom Dhirubhai Ambani Institute of Information and Communication Technology, Indien.<br/><br/>Um mein Fähigkeiten zu erweitern, habe ich ein Full-Stack Webentwicklungsbootcamp von Ironhack begonnen, um mich mit dem Know-how auszustatten, das für die Gestaltung und Verbesserung digitaler Produkte mit einem benutzerzentrierten Ansatz erforderlich ist.<br/><br/>Mit Kenntnissen in <strong>JavaScript, HTML5, CSS3 und dem MERN-Stack</strong> verfüge ich über ein einzigartiges Fähigkeitenportfolio, das technische Exzellenz nahtlos mit effektivem Projektmanagement verbindet.<br/><br/>Mein Ziel ist es, diese vielfältigen Erfahrungen einzusetzen, um wesentlich zur Entwicklung und Verbesserung digitaler Produkte beizutragen und dabei einen starken Fokus auf außergewöhnliche Benutzererfahrungen zu legen. Mit einem Engagement für Innovation und einem ganzheitlichen Ansatz für die Webentwicklung freue ich mich darauf, meine Fähigkeiten in Ihr Team einzubringen und zum Erfolg Ihrer Projekte beizutragen.",
     "heading3" : "Fähigkeiten",
     "skills" : ["React Js","JavaScript","ES6","TypeScript","Node.js","Express.js","MongoDB","HTML","CSS","Tailwind","Bootstrap","RESTful APIs","Problemlösung","Kommunikation","Paarprogrammierung","Teamzusammenarbeit","Responsive design","Agile","Scrum","Git","Github"],
     "heading4" : "Aktuelle Projekte",
@@ -35,6 +35,6 @@
         "url": "https://vidishashah25.github.io/angrybird-shoot-game/index.html"
       }
     ],
-    "contact": "Lassen Sie uns in Kontakt treten.",
-    "contact-subheading" : "Fühlen Sie sich frei, mich per E-Mail zu kontaktieren oder sich mit mir auf LinkedIn zu vernetzen. Ich freue mich über jede Gelegenheit, mich zu verbinden und an sinnvollen Gesprächen teilzunehmen. Wenn Sie Fragen haben, Hilfe benötigen oder einfach nur 'Hallo' sagen möchten, zögern Sie nicht, mir eine E-Mail zu schreiben. Ich bin immer begeistert, mit gleichgesinnten Fachleuten zusammenzuarbeiten, Einsichten zu teilen und neue Ideen zu erkunden."
+    "contact": "Lassen Sie uns in Kontakt treten. 🔗",
+    "contact-subheading" : "Zögern Sie nicht, mich per E-Mail zu kontaktieren oder sich mit mir auf LinkedIn zu verbinden. Ich begrüße jede Gelegenheit, an bedeutungsvollen Gesprächen teilzunehmen. Ob Sie Fragen haben, Hilfe benötigen oder einfach nur Hallo sagen möchten, lassen Sie mir gerne eine E-Mail zukommen. Ich bin immer bereit zur Zusammenarbeit, zum Austausch von Erkenntnissen und zur Erkundung neuer Ideen mit gleichgesinnten Fachleuten. Ich freue mich darauf, in Kontakt zu treten! 📧"
 }

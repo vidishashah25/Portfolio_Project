@@ -6,11 +6,11 @@
     "buttonLabel": "Click me",
     "name" : "Vidisha Shah",
     "position" : "Full Stack Developer",
-    "desc" : "A passionate web developer with a keen interest in enhancing Developer Experience, embracing Open Source, and delving into the endless potential of Artificial Intelligence. My goal is to support fellow developers, and create with a user-centric approach.",
-    "heading1" : "Hi! I'm Vidisha",
-    "subheading" : "Crafting digital experiences, one commit at a time, from Nuremberg, Germany.",
+    "desc" : "Passionate MERN stack developer committed to optimizing Developer Experience. Proficient in creating user-centric web solutions and supporting fellow developers. Let's innovate and build exceptional experiences together! 🚀💻",
+    "heading1" : "Hi! I'm <span style='color:#0D9488'>Vidisha</span>",
+    "subheading" : "Crafting <span style='color:#0D9488'>digital experiences</span>, one commit at a time, from <span style='color:#0D9488'>Nuremberg, Germany.</span>",
     "heading2" : "About Me",
-    "about" : "Creative Full-Stack Web Developer | Skilled in HTML5, CSS3, JavaScript, ReactJs, MongoDB, Express.js, Node.js. Committed to delivering high-quality codeand optimizing performance. Let's collaborate and create remarkable digitalsolutions.",
+    "about" : "As a <strong>Full-Stack Developer</strong> specializing in the <strong>MERN stack</strong>, I bring over 3 years of experience, having served as a Technical Assistant Director and Frontend Developer.<br/><br/>I hold an <strong>MSc. in Information Technology</strong> from Dhirubhai Ambani Institute of Information and Communication Technology, India. <br/><br/>Seeking to broaden my skill set, I initiated a Full-Stack Web Development bootcamp, equipping myself with the expertise needed to create and enhance digital products with a <strong>user-centric approach.</strong><br/><br/>Proficient in <strong>JavaScript, HTML5, CSS3, and the MERN stack</strong>, I possess a unique skill set that seamlessly blends technical excellence with effective project management.<br/><br/>My objective is to leverage this diverse background to contribute significantly to the development and enhancement of digital products, placing a strong emphasis on delivering exceptional user experiences. With a commitment to innovation and a holistic approach to web development, I am eager to bring my skills to your team and contribute to the success of your projects.",
     "heading3" : "Skills",
     "skills" : ["React Js","JavaScript","ES6","TypeScript","Node.js","Express.js","MongoDB","HTML","CSS","Tailwind","Bootstrap","RESTful APIs","Problem Solving","Communication","Pair Programming","Team Collaboration","Responsive design","Agile","Scrum","Git","Github"],
     "heading4" : "Recent projects",
@@ -35,6 +35,6 @@
         "url": "https://vidishashah25.github.io/angrybird-shoot-game/index.html"
       }
     ],
-    "contact": "Let's get in touch",
-    "contact-subheading" : "Feel free to reach out to me via email or connect with me on LinkedIn. I welcome any opportunity to connect and engage in meaningful conversations. If you have any questions, need assistance, or simply want to say hello, don't hesitate to drop me an email. I'm always eager to collaborate, share insights, and explore new ideas with like-minded professionals."
+    "contact": "Let's get in touch 🔗",
+    "contact-subheading" : "Feel free to reach out to me via email or connect with me on LinkedIn. I welcome any opportunity to engage in meaningful conversations. Whether you have questions, need assistance, or just want to say hello, don't hesitate to drop me an email. I'm always eager to collaborate, share insights, and explore new ideas with like-minded professionals. Looking forward to connecting! 📧"
   }
