@@ -82,7 +82,7 @@
     @apply w-full;
   }
   .header-container {
-    @apply w-full;
+    @apply w-full h-auto;
   }
   .content-container {
     width: auto;
