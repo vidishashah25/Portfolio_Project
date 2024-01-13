@@ -19,19 +19,19 @@
       {
         "title": "Curriculum Builder",
         "description": "Curriculum Builder is a full stack application. User can build their CVs online by using our application. The user experience includes real-time preview features. Project has been created with React Js, Node Js, Express Js, Mongo DB and Tailwind CSS.",
-        "imageSrc": "./../src/assets/cv-builder.JPG",
+        "imageSrc": "./assets/cv-builder.JPG",
         "url": "https://curriculum-builder.netlify.app/"
       },
       {
         "title": "The Dream Holiday Apartment",
         "description" : "The Dream Holiday Apartment is utilized to oversee the administrative section of the website. It is is built with React Js. We have utilized react-bootstrap and Bootstrap dependencies for styling.",
-        "imageSrc": "./../src/assets/dream-holiday.JPG",
+        "imageSrc": "./assets/dream-holiday.JPG",
         "url": "https://dream-holiday-apartments.netlify.app/"
       },
       {
         "title": "Angry Bird Shooting Game",
         "description" : "Angry Bird Shooting Game is web based shooting game. Project has been created with plain HTML, Javascript and CSS.",
-        "imageSrc": "./../src/assets/angry-bird.JPG",
+        "imageSrc": "./assets/angry-bird.JPG",
         "url": "https://vidishashah25.github.io/angrybird-shoot-game/index.html"
       }
     ],
