@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export function LanguageToggle() {
-  const { i18n } = useTranslation();
+  const { i18n,t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -45,7 +45,7 @@ export function LanguageToggle() {
                   href="#about"
                   className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-md  font-medium"
                 >
-                  About
+                  {t("nav1")}
                 </a>
               </li>
               <li className="ml-3">
@@ -53,7 +53,7 @@ export function LanguageToggle() {
                   href="#skills"
                   className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-md  font-medium"
                 >
-                  Skills
+                  {t("nav2")}
                 </a>
               </li>
               <li className="ml-3">
@@ -61,7 +61,7 @@ export function LanguageToggle() {
                   href="#project"
                   className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-md  font-medium"
                 >
-                  Projects
+                  {t("nav3")}
                 </a>
               </li>
               <li className="ml-3">
@@ -69,7 +69,7 @@ export function LanguageToggle() {
                   href="#contact"
                   className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-md font-medium"
                 >
-                  Contact
+                  {t("nav4")}
                 </a>
               </li>
               <li className="ml-3">
